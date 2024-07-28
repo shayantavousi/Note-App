@@ -146,6 +146,7 @@ textarea {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
+  border-bottom: 1px solid gray;
 }
 
 .side__note-delete {
@@ -161,7 +162,8 @@ textarea {
 
 .side__note-title {
   color: var(--color-secondary-light);
-  margin-bottom: 0;
+  margin-bottom: 1rem;
+
 }
 
 .selected-note :is(.side__note-detail, .side__note-title) {
@@ -173,6 +175,9 @@ textarea {
   color: var(--color-secondary-light);
   text-align: justify;
   line-height: 1.7;
+  overflow: hidden;
+  font-style: italic;
+  padding: 0 0.7rem;
 }
 .side__note-date {
   font-size: 1rem;
@@ -202,7 +207,7 @@ textarea {
   transform: translateY(-0.5rem);
 }
 
-/* main contetnt */
+/* main content */
 
 .main__content {
   display: flex;
@@ -235,4 +240,5 @@ textarea {
   font-size: 1.5rem;
   text-align: justify;
   line-height: 2.5;
+  text-indent: 10rem;
 }

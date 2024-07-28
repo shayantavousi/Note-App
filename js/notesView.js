@@ -53,6 +53,7 @@ export default class notesView {
 
   _noteContentCreator(id, title, body, updated) {
     const maxBodyLength = 100;
+
     return `            
     <li class="note__list-item" data-note-id="${id}">
     <div class="side__note-header">
@@ -63,7 +64,7 @@ export default class notesView {
     </div>
     <div class="side__note-detail">
     ${body.substring(0, maxBodyLength)}
-    ${body.lenght > maxBodyLength ? "..." : ""}</div>
+    ${body.length > maxBodyLength ? "..." : ""}</div>
     <div class="side__note-date">
         ${new Date(updated)
         .toLocaleString("fa-IR", { dateStyle: "full", timeStyle: "short" })}
