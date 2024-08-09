@@ -2,13 +2,13 @@
   font-family: "sans";
   font-weight: 400;
   font-style: normal;
-  src: url(/fonts/IRANSans.woff2) format(woff2);
+  src: url(./fonts/IRANSans.woff2) format(woff2);
 }
 @font-face {
   font-family: "tanha";
   font-weight: 700;
   font-style: normal;
-  src: url(/fonts/Tanha-FD.woff2) format(woff2);
+  src: url(./fonts/Tanha-FD.woff2) format(woff2);
 }
 
 body,
